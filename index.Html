@@ -8,6 +8,137 @@
   <title>SLIDER</title>
 </head>
 <body>
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="Images/goku.webp" alt="goku image">
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/vegeta.webp" alt="vegeta image">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/piccolo.webp" alt="piccolo image">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/freeza.webp" alt="freeza image">
+            </div>  
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/cell.webp" alt="cell image">
+            </div>      
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/majin-buu.webp" alt="majin-buu image">
+            </div>               
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/krillin.webp" alt="krillin image">
+            </div>  
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/chiaotzu.webp" alt="chiaotzu image">
+            </div>      
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/tien.webp" alt="tien image">
+            </div>               
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/gohan.webp" alt="gohan image">
+            </div>  
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/trunks.webp" alt="trunks image">
+            </div>      
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./Images/raditz.webp" alt="raditz image">
+            </div>               
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   
 </body>
 </html>
